@@ -7,6 +7,8 @@ const DbConnection = require("./databaseConnection");
 const userRouter = require("./routes/users.js");
 const booksRouter = require("./routes/books");
 
+
+// creating an express router
 dotenv.config();
 
 const router = express();
