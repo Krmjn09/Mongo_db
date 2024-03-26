@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/Krmjn09/BookRecord_Build#readme",
   "devDependencies": {
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.1.0"
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
