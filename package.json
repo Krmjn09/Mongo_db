@@ -1,0 +1,29 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "Library System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krmjn09/BookRecord_Build.git"
+  },
+  "author": "Kriti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krmjn09/BookRecord_Build/issues"
+  },
+  "homepage": "https://github.com/Krmjn09/BookRecord_Build#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3",
+    "express": "^4.19.2",
+    "init": "^0.1.2",
+    "nodeman": "^1.1.2"
+  }
+}
