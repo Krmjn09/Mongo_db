@@ -1,6 +1,6 @@
-// const {UserModel,BookModel} = require("../models/index.js");
+// const express = require("express");
+// const { users } = require("../data/users.json");
 
-// const getAllBooks = () => {};
-// const getSingleBookById = () => {};
+// const { UserModel, BookModel } = require("../models/index");
 
-// module.exports = { getAllBooks, getSingleBookById };
+// const router = express.Router();

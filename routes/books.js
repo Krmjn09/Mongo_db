@@ -1,16 +1,20 @@
 const express = require("express");
+
+const {
+  getAllBooks,
+  getSingleBookById,
+  getAllIssuedBooks,
+  addNewBook,
+    updateBookById,
+} = require("../controllers/book-controller.js");
 const { books } = require("../data/books.json");
 const { users } = require("../data/users.json");
-
-const { getAllBooks } = require("../controllers/book-controller.js");
-
 const router = express.Router();
 
-const {UserModel,BookModel} = require("../models/index.js");
-
-// const { Router } = require("express");
-const { getAllBooks } = require("../controllers/book-controller.js");
-
-
-
-router.get("/",getAllBooks);
+const { UserModel, BookModel } = require("../models/index");
+router.get("/:id", getSingleBookById);
+router.get("/", getAllBooks);
+router.get("/issued/by-user", getAllIssuedBooks);
+router.post("/", addNewBook);
+router.put("/updateBook/:id", updateBookById);
+module.exports = router;
